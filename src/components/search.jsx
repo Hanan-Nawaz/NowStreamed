@@ -11,7 +11,7 @@ function search({onClose}) {
   const searchApi = async (e) => {
     e.preventDefault();
     const name = ref_input.current.value;
-    const resp = await axios.get(`${import.meta.env.VITE_URL}search/movie?api_key=${import.meta.env.VITE_API_KEY}&query=${name}`)
+    const resp = await axios.get(`${import.meta.env.VITE_URL}search/multi?api_key=${import.meta.env.VITE_API_KEY}&query=${name}`)
     navigate ('/search-results', { state: { data : resp.data} })
   }
 

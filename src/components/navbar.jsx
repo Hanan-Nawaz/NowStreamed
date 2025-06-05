@@ -28,7 +28,7 @@ function navbar() {
                     {
                         url_links.map((item, index) => (
                             <li key={index}>
-                                <a className='hover:text-yellow-400 text-white' href={item.link}>{item.name}</a>
+                                <a className='hover:text-yellow-400 text-white' href={item.link} >{item.name}</a>
                             </li>
                         ))
                     }
@@ -48,7 +48,7 @@ function navbar() {
                     {
                         url_links.map((item, index) => (
                             <li key={index} className='my-2'>
-                                <a className='hover:text-yellow-400 text-white' href={item.link}>{item.name}</a>
+                                <a className='hover:text-yellow-400 text-white' href={item.link} onClick={() => setIsShow(false)}>{item.name}</a>
                             </li>
                         ))
                     }

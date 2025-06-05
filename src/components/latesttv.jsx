@@ -12,7 +12,7 @@ function latesttv() {
 
     useEffect(() => {
         const getTvShows = async () => {
-            const resp = await axios.get(`${import.meta.env.VITE_URL}tv/popular?api_key=${import.meta.env.VITE_API_KEY}&page=9`);
+            const resp = await axios.get(`${import.meta.env.VITE_URL}tv/popular?api_key=${import.meta.env.VITE_API_KEY}&page=1`);
             setTvShows(resp.data);
         }
 
@@ -38,7 +38,7 @@ function latesttv() {
                 >
                     {tvshows.results?.map ((item, index) => (
                         <SwiperSlide key={index}>
-                            <Card data={item}/>
+                            <Card data={item} type={"tv"}/>
                         </SwiperSlide>
                     ))}
 

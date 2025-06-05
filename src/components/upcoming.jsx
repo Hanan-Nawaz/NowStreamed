@@ -41,7 +41,7 @@ function upcoming() {
                 {
                     upcomingdata.results?.map((item, index) => (
                         <SwiperSlide key={index}>
-                            <Card data = {item}/>
+                            <Card data = {item} type={"movie"}/>
                         </SwiperSlide>
                     ))
                 }

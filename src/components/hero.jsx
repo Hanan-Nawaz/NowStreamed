@@ -7,7 +7,7 @@ import { ImSpinner2 } from 'react-icons/im';
 
 function Hero() {
     const [movieslist, setMoviesList] = useState([]);
-    const [currentmovie, setCurrentMovie] = useState(1);
+    const [currentmovie, setCurrentMovie] = useState(0);
     const [bgLoaded, setBgLoaded] = useState(false);
 
     const nextSlide = () => {
