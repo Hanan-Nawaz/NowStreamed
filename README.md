@@ -87,11 +87,11 @@ NowStreamed/
 
 ### Search
 
-![Search Page](https://github.com/Hanan-Nawaz/NowStreamed/blob/main/src/assets/images/search.png)
+![Search Page](https://github.com/Hanan-Nawaz/NowStreamed/blob/main/src/assets/images/sreach.png)
 
 ### Detail Page
 
-![Detail Page](https://github.com/Hanan-Nawaz/NowStreamed/blob/main/src/assets/detail/logo.png)
+![Detail Page](https://github.com/Hanan-Nawaz/NowStreamed/blob/main/src/assets/images/detail.png)
 
 ### Mobile View
 
