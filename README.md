@@ -53,6 +53,7 @@ NowStreamed/
    ```
    VITE_URL=https://api.themoviedb.org/3/
    VITE_API_KEY=your_tmdb_api_key
+   VITE_IMAGE_URL = https://image.tmdb.org/t/p/original
    ```
 
 4. Start the development server:
