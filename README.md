@@ -78,7 +78,7 @@ NowStreamed/
 
 ### Logo
 
-![Now Streamed Logo](https://github.com/Hanan-Nawaz/NowStreamed/blob/main/src/assets/images/logo.png)
+<img src="https://github.com/Hanan-Nawaz/NowStreamed/blob/main/src/assets/images/logo.png" height="100px" width="100px"/>
 
 ### Home Page
 
